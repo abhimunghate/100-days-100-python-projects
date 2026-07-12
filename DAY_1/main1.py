@@ -7,6 +7,7 @@ hobby = (input("What is your favorite hobby? : ").upper())
 color = (input("What is your favorite color? : ").upper())
 
 print("\n------ Welcome Message ------\n")
+print("Current date is : ",time.strftime("%d/%m/%Y"))
 print("Current time is : ",time.strftime("%H:%M:%S"))
 print(f"Hello, {name}!🙂 Welcome to the world of Python programming.")
 print(f"It's great to know that you love {hobby}.")
