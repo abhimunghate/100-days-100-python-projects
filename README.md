@@ -51,7 +51,7 @@ Each folder contains:
 | Day |                Project                 | Status       |
 | --- | -------------------------------------- | ------------ |
 | 1   | Welcome Message Generator              | ✅ Completed |
-| 2   | Coming Soon                            | ⏳           |
+| 2   | Personalized Greeting Program          | ✅ Completed |
 | 3   | Coming Soon                            | ⏳           |
 | 4   | Coming Soon                            | ⏳           |
 | 5   | Coming Soon                            | ⏳           |
