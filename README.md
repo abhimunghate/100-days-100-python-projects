@@ -52,7 +52,7 @@ Each folder contains:
 | --- | -------------------------------------- | ------------ |
 | 1   | Welcome Message Generator              | ✅ Completed |
 | 2   | Personalized Greeting Program          | ✅ Completed |
-| 3   | Coming Soon                            | ⏳           |
+| 3   | Simple Calculator                      | ✅ Completed |
 | 4   | Coming Soon                            | ⏳           |
 | 5   | Coming Soon                            | ⏳           |
 
