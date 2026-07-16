@@ -54,7 +54,7 @@ Each folder contains:
 | 2   | Personalized Greeting Program          | ✅ Completed |
 | 3   | Simple Calculator                      | ✅ Completed |
 | 4   | Number Comparison Tool                 | ✅ Completed |
-| 5   | Coming Soon                            | ⏳           |
+| 5   | Countdown Timer                        | ✅ Completed |
 
 ---
 
