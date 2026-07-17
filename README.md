@@ -55,6 +55,7 @@ Each folder contains:
 | 3   | Simple Calculator                      | ✅ Completed |
 | 4   | Number Comparison Tool                 | ✅ Completed |
 | 5   | Countdown Timer                        | ✅ Completed |
+| 6   | Basic Math Quiz Game                   | ✅ Completed |
 
 ---
 
