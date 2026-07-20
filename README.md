@@ -58,6 +58,7 @@ Each folder contains:
 | 6   | Basic Math Quiz Game                   | ✅ Completed |
 | 7   | Shopping List App                      | ✅ Completed |
 | 8   | Contact Book                           | ✅ Completed |
+| 9   | Ingredient Checker                     | ✅ Completed |
 
 ---
 
