@@ -59,6 +59,7 @@ Each folder contains:
 | 7   | Shopping List App                      | ✅ Completed |
 | 8   | Contact Book                           | ✅ Completed |
 | 9   | Ingredient Checker                     | ✅ Completed |
+| 10  | Note-Taking App                        | ✅ Completed |
 
 ---
 
