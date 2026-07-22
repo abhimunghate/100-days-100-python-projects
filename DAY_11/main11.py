@@ -80,7 +80,7 @@ while True:
         log_error("ZeroDivisionError", str(e))
         
     except Exception as e:
-        print(f"An unexpected error occured : {e}")
+        print(f"An unexpected error occurred : {e}")
         log_error(type(e).__name__, str(e))
         
     finally:
