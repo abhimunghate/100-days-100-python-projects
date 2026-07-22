@@ -60,6 +60,7 @@ Each folder contains:
 | 8   | Contact Book                           | ✅ Completed |
 | 9   | Ingredient Checker                     | ✅ Completed |
 | 10  | Note-Taking App                        | ✅ Completed |
+| 11  | Safe Calculator                        | ✅ Completed |
 
 ---
 
