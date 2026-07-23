@@ -61,6 +61,7 @@ Each folder contains:
 | 9   | Ingredient Checker                     | ✅ Completed |
 | 10  | Note-Taking App                        | ✅ Completed |
 | 11  | Safe Calculator                        | ✅ Completed |
+| 12  | Temperature Converter                  | ✅ Completed |
 
 ---
 
