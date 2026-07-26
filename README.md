@@ -64,6 +64,7 @@ Each folder contains:
 | 12  | Temperature Converter                  | ✅ Completed |
 | 13  | Student Grade Manager                  | ✅ Completed |
 | 14  | Random Password Generator              | ✅ Completed |
+| 15  | Recipe Viewer App                      | ✅ Completed |
 
 ---
 
