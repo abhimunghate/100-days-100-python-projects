@@ -1,0 +1,15 @@
+Pancake
+Ingredients : Flour, Milk, Eggs, Sugar
+Instructions : Mix the ingredients and fry.
+
+Salad
+Ingredients : Lettuce, Tomato, Cucumber, Dressing
+Instructions : Chop ingredients and mix.
+
+Smoothie
+Ingredients : Banana, Milk, Honey
+Instructions : Blend all ingredients.
+
+Maggi
+Ingredients : Maggi, Water, Masala
+Instructions : Boil water, add Maggi and masala, cook for 2 minutes.
