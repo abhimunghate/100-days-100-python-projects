@@ -66,6 +66,7 @@ Each folder contains:
 | 14  | Random Password Generator              | ✅ Completed |
 | 15  | Recipe Viewer App                      | ✅ Completed |
 | 16  | Daily Journal Logger                   | ✅ Completed |
+| 17  | Student Report Generator               | ✅ Completed |
 
 ---
 
