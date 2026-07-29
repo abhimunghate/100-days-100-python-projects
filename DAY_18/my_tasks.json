@@ -1,0 +1,12 @@
+[
+    {
+        "Task": "Complete JSON Project",
+        "Due Date": "2026-07-29",
+        "Status": "Complete"
+    },
+    {
+        "Task": "Complete Python Project",
+        "Due Date": "2026-07-29",
+        "Status": "Incomplete"
+    }
+]
