@@ -68,6 +68,7 @@ Each folder contains:
 | 16  | Daily Journal Logger                   | ✅ Completed |
 | 17  | Student Report Generator               | ✅ Completed |
 | 18  | Mini To-Do App                         | ✅ Completed |
+| 19  | Weather App using API                  | ✅ Completed |
 
 ---
 
