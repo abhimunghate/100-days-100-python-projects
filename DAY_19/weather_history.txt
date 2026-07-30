@@ -1,0 +1,41 @@
+
+==================================================
+Weather Report - 30/07/2026 09:23:55 PM
+==================================================
+City: Nagpur
+Temperature: 25.14°C
+Feels Like: 26.11°C
+Weather: Light Rain
+Humidity: 92%
+Wind Speed: 2.76 m/s
+Pressure: 995 hPa
+Visibility: 10.0 km
+Sunrise: 05:46 AM
+Sunset: 06:53 PM
+
+==================================================
+Saved On : 30/07/2026 09:24:28 PM
+==================================================
+5-Day Forecast for Nagpur
+
+Date        : 2026-07-31
+Temperature : 26.42°C
+Weather     : Light Rain
+----------------------------------------
+Date        : 2026-08-01
+Temperature : 28.09°C
+Weather     : Broken Clouds
+----------------------------------------
+Date        : 2026-08-02
+Temperature : 29.67°C
+Weather     : Light Rain
+----------------------------------------
+Date        : 2026-08-03
+Temperature : 28.44°C
+Weather     : Light Rain
+----------------------------------------
+Date        : 2026-08-04
+Temperature : 28.8°C
+Weather     : Light Rain
+----------------------------------------
+
