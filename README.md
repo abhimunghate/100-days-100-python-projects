@@ -69,6 +69,7 @@ Each folder contains:
 | 17  | Student Report Generator               | ✅ Completed |
 | 18  | Mini To-Do App                         | ✅ Completed |
 | 19  | Weather App using API                  | ✅ Completed |
+| 20  | Event Countdown Timer                  | ✅ Completed |
 
 ---
 
