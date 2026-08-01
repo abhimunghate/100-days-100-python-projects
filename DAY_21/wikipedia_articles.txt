@@ -1,0 +1,19 @@
+============================================================
+Article: Python (programming language)
+============================================================
+
+Summary:
+Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation,[38] an extensive ("batteries-included") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.
+
+Headings:
+1. Contents
+2. History
+3. Design philosophy and features
+4. Enhancement Proposals
+5. Syntax and semantics
+
+Related Links:
+- https://en.wikipedia.org/wiki/Main_Page
+- https://en.wikipedia.org/wiki/Python_(programming_language)
+
+
