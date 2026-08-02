@@ -71,6 +71,7 @@ Each folder contains:
 | 19  | Weather App using API                  | ✅ Completed |
 | 20  | Event Countdown Timer                  | ✅ Completed |
 | 21  | Wikipedia Article Scraper              | ✅ Completed |
+| 22  | Bank Account Simulator                 | ✅ Completed |
 
 ---
 
