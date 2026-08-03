@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "is_borrowed": false,
+        "borrow_date": null,
+        "due_date": null
+    },
+    {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "is_borrowed": true,
+        "borrow_date": "03-08-2026",
+        "due_date": "17-08-2026"
+    }
+]
