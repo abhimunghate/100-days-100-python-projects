@@ -73,6 +73,7 @@ Each folder contains:
 | 21  | Wikipedia Article Scraper              | ✅ Completed |
 | 22  | Bank Account Simulator                 | ✅ Completed |
 | 23  | Library Management System              | ✅ Completed |
+| 24  | Employee Management System             | ✅ Completed |
 
 ---
 
