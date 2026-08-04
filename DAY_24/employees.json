@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Manager",
+        "name": "John Smith",
+        "emp_id": "EMP101",
+        "salary": 75000.0,
+        "department": "Human Resources"
+    },
+    {
+        "type": "Developer",
+        "name": "Alice Johnson",
+        "emp_id": "EMP102",
+        "salary": 65000.0,
+        "programming_language": "Python"
+    },
+    {
+        "type": "Intern",
+        "name": "David Lee",
+        "emp_id": "EMP103",
+        "salary": 15000,
+        "duration": 6
+    }
+]
