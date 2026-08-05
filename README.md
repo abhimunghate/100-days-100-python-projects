@@ -74,6 +74,7 @@ Each folder contains:
 | 22  | Bank Account Simulator                 | ✅ Completed |
 | 23  | Library Management System              | ✅ Completed |
 | 24  | Employee Management System             | ✅ Completed |
+| 25  | Animal Sound Simulator                 | ✅ Completed |
 
 ---
 
