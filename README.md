@@ -75,6 +75,7 @@ Each folder contains:
 | 23  | Library Management System              | ✅ Completed |
 | 24  | Employee Management System             | ✅ Completed |
 | 25  | Animal Sound Simulator                 | ✅ Completed |
+| 26  | Secure User Profile App                | ✅ Completed |
 
 ---
 
