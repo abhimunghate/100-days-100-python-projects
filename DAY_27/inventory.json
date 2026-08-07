@@ -1,0 +1,16 @@
+[
+    {
+        "product_name": "Milk",
+        "price": 50.0,
+        "quantity": 10,
+        "is_perishable": true,
+        "expiry_date": "2026-08-10"
+    },
+    {
+        "product_name": "Keyboard",
+        "price": 1500.0,
+        "quantity": 8,
+        "is_perishable": false,
+        "expiry_date": null
+    }
+]
