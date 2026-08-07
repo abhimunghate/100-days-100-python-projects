@@ -76,6 +76,7 @@ Each folder contains:
 | 24  | Employee Management System             | ✅ Completed |
 | 25  | Animal Sound Simulator                 | ✅ Completed |
 | 26  | Secure User Profile App                | ✅ Completed |
+| 27  | Inventory Management System            | ✅ Completed |
 
 ---
 
