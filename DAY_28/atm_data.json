@@ -1,0 +1,40 @@
+{
+    "users": {
+        "user101": {
+            "user_id": "user101",
+            "name": "Abhijit",
+            "pin": "1234",
+            "accounts": [
+                "ACC1001"
+            ]
+        }
+    },
+    "accounts": {
+        "ACC1001": {
+            "account_number": "ACC1001",
+            "account_type": "Savings",
+            "balance": 4160.0,
+            "is_frozen": false,
+            "transactions": [
+                {
+                    "transaction_type": "DEPOSIT",
+                    "amount": 5000.0,
+                    "description": "Cash deposit",
+                    "timestamp": "2026-08-08 23:51:10"
+                },
+                {
+                    "transaction_type": "WITHDRAWAL",
+                    "amount": 1000.0,
+                    "description": "Cash withdrawal",
+                    "timestamp": "2026-08-08 23:51:23"
+                },
+                {
+                    "transaction_type": "INTEREST",
+                    "amount": 160.0,
+                    "description": "4% savings interest",
+                    "timestamp": "2026-08-08 23:51:30"
+                }
+            ]
+        }
+    }
+}
