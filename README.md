@@ -77,6 +77,7 @@ Each folder contains:
 | 25  | Animal Sound Simulator                 | ✅ Completed |
 | 26  | Secure User Profile App                | ✅ Completed |
 | 27  | Inventory Management System            | ✅ Completed |
+| 28  | Mini ATM Machine                       | ✅ Completed |
 
 ---
 
