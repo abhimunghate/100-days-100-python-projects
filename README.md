@@ -78,6 +78,7 @@ Each folder contains:
 | 26  | Secure User Profile App                | ✅ Completed |
 | 27  | Inventory Management System            | ✅ Completed |
 | 28  | Mini ATM Machine                       | ✅ Completed |
+| 29  | Simple GUI App                         | ✅ Completed |
 
 ---
 
