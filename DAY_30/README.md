@@ -42,9 +42,7 @@ The highest score is automatically updated whenever the current click count exce
 
 Add a screenshot of your application here if you have one:
 
-```markdown
 ![Click Counter App](screenshot.png)
-```
 
 Make sure `screenshot.png` is placed in the same folder as `README.md`.
 
