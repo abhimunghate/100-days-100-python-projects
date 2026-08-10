@@ -79,6 +79,7 @@ Each folder contains:
 | 27  | Inventory Management System            | ✅ Completed |
 | 28  | Mini ATM Machine                       | ✅ Completed |
 | 29  | Simple GUI App                         | ✅ Completed |
+| 30  | Click Counter App                      | ✅ Completed |
 
 ---
 
