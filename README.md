@@ -80,6 +80,7 @@ Each folder contains:
 | 28  | Mini ATM Machine                       | ✅ Completed |
 | 29  | Simple GUI App                         | ✅ Completed |
 | 30  | Click Counter App                      | ✅ Completed |
+| 31  | BMI Calculator                         | ✅ Completed |
 
 ---
 
