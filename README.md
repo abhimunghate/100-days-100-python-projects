@@ -81,6 +81,7 @@ Each folder contains:
 | 29  | Simple GUI App                         | ✅ Completed |
 | 30  | Click Counter App                      | ✅ Completed |
 | 31  | BMI Calculator                         | ✅ Completed |
+| 32  | Drawing Pad App                        | ✅ Completed |
 
 ---
 
