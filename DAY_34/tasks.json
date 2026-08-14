@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Complete Python Project",
+        "priority": "High",
+        "category": "Study"
+    },
+    {
+        "task": "Practice Python",
+        "priority": "Medium",
+        "category": "Work"
+    },
+    {
+        "task": "Buy groceries",
+        "priority": "Low",
+        "category": "Personal"
+    }
+]
