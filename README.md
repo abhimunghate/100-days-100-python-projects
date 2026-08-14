@@ -83,6 +83,7 @@ Each folder contains:
 | 31  | BMI Calculator                         | ✅ Completed |
 | 32  | Drawing Pad App                        | ✅ Completed |
 | 33  | Simple Login System                    | ✅ Completed |
+| 34  | To-Do List GUI                         | ✅ Completed |
 
 ---
 
