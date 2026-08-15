@@ -1,0 +1,16 @@
+# Text files
+*.py text
+*.txt text
+*.md text
+*.csv text
+*.html text
+*.css text
+*.js text
+
+# Binary files
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
