@@ -85,6 +85,7 @@ Each folder contains:
 | 33  | Simple Login System                    | ✅ Completed |
 | 34  | To-Do List GUI                         | ✅ Completed |
 | 35  | Expense Tracker App                    | ✅ Completed |
+| 36  | Hello Flask App                        | ✅ Completed |
 
 ---
 
