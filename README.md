@@ -86,6 +86,7 @@ Each folder contains:
 | 34  | To-Do List GUI                         | ✅ Completed |
 | 35  | Expense Tracker App                    | ✅ Completed |
 | 36  | Hello Flask App                        | ✅ Completed |
+| 37  | Personal Blog Website                  | ✅ Completed |
 
 ---
 
