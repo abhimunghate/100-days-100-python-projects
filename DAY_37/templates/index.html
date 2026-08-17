@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home - My Blog{% endblock %}
+
+{% block content %}
+<h1>Welcome to My Personal Blog</h1>
+<form method="GET" action="/">
+    <input type="text" name="search" placeholder="Search blog posts..." value="{{ search }}">
+    <button type="submit">Search</button>
+    {% if search %}
+        <a href="/">Clear Search</a>
+    {% endif %}
+</form>
+<hr>
+
+{% if search %}
+    <h3>Search results for: "{{ search }}"</h3>
+{% endif %}
+
+{% if posts %}
+    {% for post in posts %}
+        <article class="post">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content }}</p>
+            <small>By {{ post.author }}</small>
+            <br><br>
+            <a href="{{ url_for('post_detail', post_id=post.id) }}">Read More</a>
+        </article>
+        <hr>
+    {% endfor %}
+{% else %}
+    <p>No posts found.</p>
+{% endif %}
+
+{% if total_pages > 1 %}
+<div class="pagination">
+    {% if page > 1 %}
+        <a href="{{ url_for('home', page=page-1, search=search) }}">&laquo; Previous</a>
+    {% endif %}
+
+    {% for page_number in range(1, total_pages + 1) %}
+        {% if page_number == page %}
+            <span class="current-page">{{ page_number }}</span>
+        {% else %}
+            <a href="{{ url_for('home', page=page_number, search=search) }}">{{ page_number }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if page < total_pages %}
+        <a href="{{ url_for('home', page=page+1, search=search) }}">Next &raquo;</a>
+    {% endif %}
+</div>
+
+{% endif %}
+{% endblock %}
+
+<!-- Done -->
