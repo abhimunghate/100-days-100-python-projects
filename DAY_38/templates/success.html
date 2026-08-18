@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <h1>Message Sent Successfully!</h1>
+    <p class="success-message">Thank you for contacting us. Your message has been received.</p>
+    {% if email_sent %}
+    <p>A confirmation email has been sent to your email address.</p>
+    {% else %}
+        <p>Your message was received, but we could not send the confirmation email.</p>
+    {% endif %}
+    <p>
+        <a href="{{ url_for('contact') }}">Back to Contact Form</a>
+    </p>
+</body>
+</html>
+
+<!-- Done -->

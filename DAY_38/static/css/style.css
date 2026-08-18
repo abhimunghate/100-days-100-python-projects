@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form p{
+    margin: 10px 0;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.success{
+    color: green;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    display: block;
+    margin-top: 5px;
+}
+
+.success-message{
+    text-align: center;
+    color: green;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Done */
