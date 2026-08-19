@@ -88,6 +88,7 @@ Each folder contains:
 | 36  | Hello Flask App                        | ✅ Completed |
 | 37  | Personal Blog Website                  | ✅ Completed |
 | 38  | Contact Form App                       | ✅ Completed |
+| 39  | User Registration App                  | ✅ Completed |
 
 ---
 
