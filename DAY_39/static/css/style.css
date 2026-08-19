@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+form{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+form button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.profile{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.profile p{
+    text-align: left;
+    padding: 8px;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.home-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.home-container h2 {
+    margin-bottom: 15px;
+}
+
+.home-container p {
+    line-height: 1.6;
+}
+
+.home-buttons {
+    margin-top: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Done */

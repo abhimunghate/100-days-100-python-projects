@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="POST">
+        <p>Username : <br><input type="text" name="username" required></p>
+        <p>Password : <br><input type="password" name="password" required></p>
+        <p><button type="submit">Login</button></p>
+    </form>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <p class="{{ category }}">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <p>
+        Don't have an account?
+        <a href="{{ url_for('register') }}">Register</a>
+    </p>
+</body>
+</html>
+
+<!-- Done -->
