@@ -89,6 +89,7 @@ Each folder contains:
 | 37  | Personal Blog Website                  | ✅ Completed |
 | 38  | Contact Form App                       | ✅ Completed |
 | 39  | User Registration App                  | ✅ Completed |
+| 40  | Mini Weather API                       | ✅ Completed |
 
 ---
 
