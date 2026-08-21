@@ -90,6 +90,7 @@ Each folder contains:
 | 38  | Contact Form App                       | ✅ Completed |
 | 39  | User Registration App                  | ✅ Completed |
 | 40  | Mini Weather API                       | ✅ Completed |
+| 41  | Deploy Flask App                       | ✅ Completed |
 
 ---
 
