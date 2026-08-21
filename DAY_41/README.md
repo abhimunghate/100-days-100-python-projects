@@ -52,7 +52,7 @@ Here is a preview of the deployed Flask application:
 The application will be available online after deployment.
 
 **Live Website:**
-`https://your-render-app-url.onrender.com`
+`https://day41-flask-app.onrender.com`
 
 > Replace the URL above with your actual Render deployment URL after deployment.
 
