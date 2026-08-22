@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ post.title }}
+{% endblock %}
+
+{% block content %}
+<article class="single-post">
+    <h1>{{ post.title }}</h1>
+    <p>
+        <strong>Author : </strong>
+        {{ post.author }}
+    </p>
+    <hr>
+    <p>{{ post.content }}</p>
+    <br>
+    <a href="{{ url_for('blog') }}">← Back to Blog</a>
+</article>
+{% endblock %}
+
+<!-- Done -->

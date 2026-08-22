@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<h1>About Me</h1>
+<p>Hello! I'm a Python developer passionate about building web applications and solving problems.</p>
+<img src="{{ url_for('static', filename='images/profile.jpg')}}" alt="Profile Picture">
+
+<h2>Resume</h2>
+<p>Download my resume to learn more about my skills, education, projects and experience.</p>
+<a href="{{ url_for('static', filename='resume.pdf') }}" download>
+    Download Resume
+</a>
+{% endblock %}
+
+<!-- Done -->

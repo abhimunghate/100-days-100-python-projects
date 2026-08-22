@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to My Portfolio</h1>
+<p>Explore my projects and get in touch!</p>
+
+<h2>Featured Projects</h2>
+<div class="projects">
+    {% for project in projects %}
+    <div class="project">
+        <img src="{{ url_for('static', filename='images/' + project.image)}}" alt="{{ project.title }}">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">View Project</a>
+    </div>
+    {% endfor %}
+</div>
+
+<h2>Latest Blog Posts</h2>
+<div class="blog-container">
+    {% for post in posts %}
+    <div class="blog-card">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content[:150] }}...</p>
+        <small>By {{ post.author }}</small>
+        <br><br>
+        <a href="{{ url_for('blog_post',post_id=post.id) }}">Read More</a>
+    </div>
+    {% else %}
+    <p>No blog posts available.</p>
+    {% endfor %}
+</div>
+<p>
+    <a href="{{ url_for('blog') }}">View All Blog Posts →</a>
+</p>
+{% endblock %}
+
+<!-- Done -->

@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#theme-toggle {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main{
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.project img{
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-container {
+    display: grid;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.blog-card h2, .blog-card h3 {
+    margin-top: 0;
+}
+
+.single-post {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+body.dark-mode header {
+    background-color: #000;
+}
+
+body.dark-mode .project,
+body.dark-mode .blog-card,
+body.dark-mode .single-post {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    border-color: #444;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark-mode footer {
+    background-color: #000;
+}
+
+/* Done */
