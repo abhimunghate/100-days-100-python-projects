@@ -13,6 +13,12 @@ env/
 .env
 .env.*
 
+# SQLite databases
+*.db
+
+# Flask
+instance/
+
 # IDE / editor files
 .vscode/
 .idea/
@@ -25,5 +31,3 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
-
-users.db
