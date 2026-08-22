@@ -90,7 +90,7 @@ The application will be available online after deployment.
 
 **Live Website:**
 
-`https://app-link`
+`https://one00-days-100-python-projects.onrender.com`
 
 > Replace the URL above with your actual Render deployment URL after deployment.
 
