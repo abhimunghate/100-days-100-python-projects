@@ -91,6 +91,7 @@ Each folder contains:
 | 39  | User Registration App                  | ✅ Completed |
 | 40  | Mini Weather API                       | ✅ Completed |
 | 41  | Deploy Flask App                       | ✅ Completed |
+| 42  | Portfolio Website                      | ✅ Completed |
 
 ---
 
