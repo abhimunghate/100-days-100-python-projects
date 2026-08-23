@@ -92,6 +92,7 @@ Each folder contains:
 | 40  | Mini Weather API                       | ✅ Completed |
 | 41  | Deploy Flask App                       | ✅ Completed |
 | 42  | Portfolio Website                      | ✅ Completed |
+| 43  | Matrix Calculator                      | ✅ Completed |
 
 ---
 
