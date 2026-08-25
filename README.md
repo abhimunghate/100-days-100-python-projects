@@ -94,6 +94,7 @@ Each folder contains:
 | 42  | Portfolio Website                      | ✅ Completed |
 | 43  | Matrix Calculator                      | ✅ Completed |
 | 44  | Data Cleaner                           | ✅ Completed |
+| 45  | Graph Plotter                          | ✅ Completed |
 
 ---
 
