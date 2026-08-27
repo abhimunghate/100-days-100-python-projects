@@ -96,6 +96,7 @@ Each folder contains:
 | 44  | Data Cleaner                           | ✅ Completed |
 | 45  | Graph Plotter                          | ✅ Completed |
 | 46  | Sales Report Analyzer                  | ✅ Completed |
+| 47  | Temperature Plotter                    | ✅ Completed |
 
 ---
 
