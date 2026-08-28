@@ -97,6 +97,7 @@ Each folder contains:
 | 45  | Graph Plotter                          | ✅ Completed |
 | 46  | Sales Report Analyzer                  | ✅ Completed |
 | 47  | Temperature Plotter                    | ✅ Completed |
+| 48  | Stock Price Tracker                    | ✅ Completed |
 
 ---
 
