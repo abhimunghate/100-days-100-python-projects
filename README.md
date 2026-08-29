@@ -98,6 +98,7 @@ Each folder contains:
 | 46  | Sales Report Analyzer                  | ✅ Completed |
 | 47  | Temperature Plotter                    | ✅ Completed |
 | 48  | Stock Price Tracker                    | ✅ Completed |
+| 49  | Global Weather Dashboard               | ✅ Completed |
 
 ---
 
