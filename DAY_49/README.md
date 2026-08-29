@@ -92,7 +92,7 @@ The graph provides a visual representation of the predicted temperature changes 
 
 ---
 
-### 🗺️ 5. Interactive Weather Map
+### 🗺️ 4. Interactive Weather Map
 
 ![Interactive Weather Map](screenshots/weather_map.png)
 
