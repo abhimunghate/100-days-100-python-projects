@@ -88,6 +88,17 @@ The project includes screenshots showing the main dashboard, weather information
 
 ---
 
+## 🌐 Live Demo
+
+The application will be available online after deployment.
+
+**Live Website:**
+`https://day-50-weather-dashboard.onrender.com`
+
+> Replace the URL above with your actual Render deployment URL after deployment.
+
+---
+
 ## 🛠️ Technologies Used
 
 * **Python 3**
