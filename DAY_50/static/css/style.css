@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    color: #222;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+.header p {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.search-section {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-form input:focus {
+    border-color: #4f7cff;
+}
+
+.search-form button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #4f7cff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #365fe0;
+}
+
+.error-message {
+    background: #ffe5e5;
+    color: #b00020;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+}
+
+.weather-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-main h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #666;
+    font-size: 18px;
+}
+
+.weather-icon {
+    width: 110px;
+    height: 110px;
+}
+
+.temperature {
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feels-like {
+    color: #666;
+    font-size: 17px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.detail-card {
+    background: #f5f7fb;
+    border-radius: 12px;
+    padding: 18px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.detail-icon {
+    font-size: 28px;
+}
+
+.detail-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detail-title {
+    color: #777;
+    font-size: 13px;
+}
+
+.detail-card strong {
+    font-size: 16px;
+}
+
+.history-section {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.history-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-header h2 {
+    margin-top: 0;
+}
+
+.clear-button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #ff5c5c;
+    color: white;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background: #df3f3f;
+}
+
+.history-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.history-item {
+    border: 1px solid #ddd;
+    background: #f8f9fc;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.history-item:hover {
+    background: #4f7cff;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.empty-history {
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .details-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .app-container {
+        padding: 20px 12px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-form button {
+        width: 100%;
+    }
+
+    .weather-main h2 {
+        font-size: 24px;
+    }
+
+    .temperature {
+        font-size: 50px;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Done */

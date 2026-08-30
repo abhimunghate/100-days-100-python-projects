@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div>
+                <h1>🌤️ Weather Dashboard</h1>
+                <p> Check real-time weather conditions around the world. </p>
+            </div>
+        </header>
+
+        <section class="search-section">
+            <form method="POST" class="search-form">
+                <input type="text" name="city" placeholder="Enter city name..." value="{{ searched_city }}" required>
+                <button type="submit">🔍 Search</button>
+            </form>
+        </section>
+
+        {% if error %}
+        <div class="error-message">
+            <span>⚠️</span>
+            <span>{{ error }}</span>
+        </div>
+        {% endif %}
+
+        <main>
+            {% if weather %}
+            <section class="weather-card">
+                <div class="weather-main">
+                    <div>
+                        <h2>{{ weather.city }}, {{ weather.country }}</h2>
+                        <p class="description">{{ weather.description }}</p>
+                    </div>
+
+                    <img src="{{ weather.icon }}" alt="{{ weather.description }}" class="weather-icon">
+                </div>
+
+                <div class="temperature">
+                    {{ "%.1f"|format(weather.temperature) }}°C
+                </div>
+
+                <p class="feels-like">Feels like {{ "%.1f"|format(weather.feels_like) }}°C</p>
+
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <span class="detail-icon">💧</span>
+                        <div>
+                            <span class="detail-title">Humidity</span>
+                            <strong>{{ weather.humidity }}%</strong>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <span class="detail-icon">💨</span>
+                        <div>
+                            <span class="detail-title">Wind</span>
+                            <strong>{{ weather.wind_speed }}m/s</strong>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <span class="detail-icon">🌡️</span>
+                        <div>
+                            <span class="detail-title">Pressure</span>
+                            <strong>{{ weather.pressure }}hPa</strong>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <span class="detail-icon">👁️</span>
+                        <div>
+                            <span class="detail-title">Visibility</span>
+                            <strong>{{ "%.1f"|format(weather.visibility) }}km</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
+
+            <section class="history-section">
+                <div class="history-header">
+                    <h2>🕘 Recent Searches</h2>
+                    <button type="button" id="clear-history" class="clear-button">Clear History</button>
+                </div>
+
+                <div id="history-list" class="history-list">
+                    <p class="empty-history">No recent searches.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Weather Dashboard | Powered by OpenWeather</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    {% if weather %}
+    <script>saveSearch("{{ weather.city }}");</script>
+    {% endif %}
+</body>
+</html>
+
+<!-- Done -->
