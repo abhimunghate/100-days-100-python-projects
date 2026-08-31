@@ -100,6 +100,7 @@ Each folder contains:
 | 48  | Stock Price Tracker                    | ✅ Completed |
 | 49  | Global Weather Dashboard               | ✅ Completed |
 | 50  | Weather Dashboard App                  | ✅ Completed |
+| 51  | Expense Tracker                        | ✅ Completed |
 
 ---
 
