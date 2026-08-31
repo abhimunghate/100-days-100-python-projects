@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %} Expense Summary {% endblock %}
+{% block content %}
+<h1>Expense Summary</h1>
+<div class="export-buttons">
+    <a href="{{ url_for('export_excel') }}" class="button">Export Excel</a>
+    <a href="{{ url_for('export_pdf') }}" class="button">Export PDF</a>
+</div>
+
+<div class="summary-section">
+    <h2>Expenses by Category</h2>
+    {% if category_summary %}
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for category, amount in category_summary.items() %}
+                <tr>
+                    <td>{{ category }}</td>
+                    <td>₹{{ "%.2f"|format(amount) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p>No category data available.</p>
+    {% endif %}
+</div>
+
+<div class="summary-section">
+    <h2>Monthly Expense Trends</h2>
+    {% if monthly_summary %}
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for month, amount in monthly_summary.items() %}
+                <tr>
+                    <td>{{ month }}</td>
+                    <td>₹{{ "%.2f"|format(amount) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p>No monthly data available.</p>
+    {% endif %}
+</div>
+{% endblock %}
+
+<!-- Done -->

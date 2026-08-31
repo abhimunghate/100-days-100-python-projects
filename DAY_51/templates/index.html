@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %} Dashboard - Expense Tracker {% endblock %}
+{% block content %}
+<h1>Expense Dashboard</h1>
+<div class="stats">
+    <div class="card">
+        <h3>Total Expenses</h3>
+        <p class="stat-value">₹{{ "%.2f"|format(total_expenses) }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Total Transactions</h3>
+        <p class="stat-value">{{ total_transactions }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Top Category</h3>
+        <p class="stat-value">{{ highest_category }}</p>
+    </div>
+</div>
+
+<div class="page-header">
+    <h2>All Expenses</h2>
+    <a href="{{ url_for('add_expense') }}" class="button">+ Add Expense</a>
+</div>
+
+{% if expenses %}
+<div class="table-container">
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for expense in expenses %}
+        <tr>
+            <td>{{ expense.Date }}</td>
+            <td>{{ expense.Category }}</td>
+            <td>₹{{ "%.2f"|format(expense.Amount) }}</td>
+            <td>{{ expense.Description }}</td>
+            <td class="actions">
+                <a href="{{ url_for('edit_expense', index=loop.index0) }}" class="edit-button">Edit</a>
+                <form action="{{ url_for('delete_expense', index=loop.index0) }}" method="POST" style="display:inline;">
+                    <button type="submit" class="delete-button" onclick="return confirm('Are you sure you want to delete this expense?')">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+{% else %}
+<div class="empty-state">
+    <h2>No expenses yet</h2>
+    <p>Start tracking your expenses by adding your first expense.</p>
+    <a href="{{ url_for('add_expense') }}" class="button">Add Your First Expense</a>
+</div>
+{% endif %}
+{% endblock %}
+
+<!-- Done -->

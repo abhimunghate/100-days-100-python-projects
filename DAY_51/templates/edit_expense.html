@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} Edit Expense {% endblock %}
+{% block content %}
+<div class="form-container">
+    <h1>Edit Expense</h1>
+    <form method="POST">
+        <label>Date</label>
+        <input type="date" name="date" value="{{ expense.Date }}" required>
+
+        <label>Category</label>
+        <input type="text" name="category" value="{{ expense.Category }}" required>
+
+        <label>Amount</label>
+        <input type="number" name="amount" step="0.01" min="0.01" value="{{ expense.Amount }}" required>
+
+        <label>Description</label>
+        <textarea name="description" rows="4">{{ expense.Description }}</textarea>
+
+        <button type="submit" class="button">Update Expense</button>
+    </form>
+</div>
+{% endblock %}
+
+<!-- Done -->
