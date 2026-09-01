@@ -101,6 +101,7 @@ Each folder contains:
 | 49  | Global Weather Dashboard               | ✅ Completed |
 | 50  | Weather Dashboard App                  | ✅ Completed |
 | 51  | Expense Tracker                        | ✅ Completed |
+| 52  | File Organizer Tool                    | ✅ Completed |
 
 ---
 
