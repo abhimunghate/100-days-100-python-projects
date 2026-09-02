@@ -102,6 +102,7 @@ Each folder contains:
 | 50  | Weather Dashboard App                  | ✅ Completed |
 | 51  | Expense Tracker                        | ✅ Completed |
 | 52  | File Organizer Tool                    | ✅ Completed |
+| 53  | Tic-Tac-Toe Game                       | ✅ Completed |
 
 ---
 
