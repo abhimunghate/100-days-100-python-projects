@@ -318,6 +318,7 @@ def computer_move():
 
 def change_game_mode():
     global game_mode
+    
     game_mode = mode_var.get()
     reset_game()
 
@@ -336,6 +337,7 @@ def change_symbol():
     global player_symbol
     global computer_symbol
     global current_player
+    
     player_symbol = symbol_var.get()
 
     if player_symbol == "X":
