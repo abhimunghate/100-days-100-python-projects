@@ -103,6 +103,7 @@ Each folder contains:
 | 51  | Expense Tracker                        | ✅ Completed |
 | 52  | File Organizer Tool                    | ✅ Completed |
 | 53  | Tic-Tac-Toe Game                       | ✅ Completed |
+| 54  | Mini Chatbot                           | ✅ Completed |
 
 ---
 
