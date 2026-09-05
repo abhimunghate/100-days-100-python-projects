@@ -105,6 +105,7 @@ Each folder contains:
 | 53  | Tic-Tac-Toe Game                       | ✅ Completed |
 | 54  | Mini Chatbot                           | ✅ Completed |
 | 55  | Music Playlist Organizer               | ✅ Completed |
+| 56  | Personal Budget Planner                | ✅ Completed |
 
 ---
 
