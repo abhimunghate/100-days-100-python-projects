@@ -106,6 +106,7 @@ Each folder contains:
 | 54  | Mini Chatbot                           | ✅ Completed |
 | 55  | Music Playlist Organizer               | ✅ Completed |
 | 56  | Personal Budget Planner                | ✅ Completed |
+| 57  | ASCII Art Generator                    | ✅ Completed |
 
 ---
 
