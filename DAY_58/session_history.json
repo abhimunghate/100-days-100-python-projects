@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2026-09-07",
+        "time": "22:41:45",
+        "session": 1,
+        "duration_minutes": 25,
+        "productivity": 5,
+        "task": "Project",
+        "notes": "Python Project"
+    },
+    {
+        "date": "2026-09-07",
+        "time": "22:43:51",
+        "session": 2,
+        "duration_minutes": 25,
+        "productivity": 4,
+        "task": "Work",
+        "notes": "Research Paper"
+    }
+]
