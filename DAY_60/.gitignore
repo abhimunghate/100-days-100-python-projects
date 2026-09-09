@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Encryption key
+secret.key
+
+# Private diary data
+data/
+*.diary
+
+# Password
+password.hash
+
+# Google credentials
+credentials/
+token.json
+
+# Backup
+backup/
+
+# Virtual environment
+venv/
+.venv/
