@@ -110,6 +110,7 @@ Each folder contains:
 | 58  | Pomodoro Timer                         | ✅ Completed |
 | 59  | Markdown to HTML Converter             | ✅ Completed |
 | 60  | Personal Diary App                     | ✅ Completed |
+| 61  | Social Media Scraper                   | ✅ Completed |
 
 ---
 
