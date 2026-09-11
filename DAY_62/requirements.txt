@@ -1,0 +1,3 @@
+# No external dependencies required.
+# tkinter, zipfile, pathlib, shutil, os, csv, and threading
+# are included with standard Python installations.
