@@ -111,6 +111,7 @@ Each folder contains:
 | 59  | Markdown to HTML Converter             | ✅ Completed |
 | 60  | Personal Diary App                     | ✅ Completed |
 | 61  | Social Media Scraper                   | ✅ Completed |
+| 62  | Automated Backup Tool                  | ✅ Completed |
 
 ---
 
