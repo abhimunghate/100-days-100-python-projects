@@ -113,6 +113,7 @@ Each folder contains:
 | 61  | Social Media Scraper                   | ✅ Completed |
 | 62  | Automated Backup Tool                  | ✅ Completed |
 | 63  | Movie Recommendation System            | ✅ Completed |
+| 64  | PDF Merger Tool                        | ✅ Completed |
 
 ---
 
