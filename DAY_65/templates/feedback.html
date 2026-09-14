@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Submissions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <h2>Admin Feedback Panel</h2>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </header>
+
+    <main class="feedback-container">
+        <h1>Feedback Submissions</h1>
+
+        <form class="search-form" action="{{ url_for('view_feedback') }}" method="GET">
+            <label for="search">Search Feedback:</label>
+            <input type="search" name="search" id="search" placeholder="Search by name, email, or message" value="{{ search_query }}">
+            <button type="submit">Search</button>
+
+            {% if search_query %}
+                <a href="{{ url_for('view_feedback') }}">Clear Search</a>
+            {% endif %}
+        </form>
+
+        <hr>
+
+        {% if feedbacks %}
+                {% for feedback in feedbacks %}
+                <article class="feedback-card">
+                    <h3>{{ feedback.name }}</h3>
+                    <p class="email">{{ feedback.email }}</p>
+                    <p>{{ feedback.message }}</p>
+                </article>
+                {% endfor %}
+        {% else %}
+            <p>No feedback entries found.</p>
+        {% endif %}
+    </main>
+</body>
+</html>
+
+<!-- Done -->

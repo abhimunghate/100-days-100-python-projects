@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background: #172554;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.hero section {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.button,
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    padding: 11px 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background: #1d4ed8;
+}
+
+.form-container,
+.feedback-container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.search-form input {
+    flex: 1;
+}
+
+.feedback-card {
+    margin: 15px 0;
+    padding: 18px;
+    border-left: 4px solid #2563eb;
+    background: #f8fafc;
+}
+
+.feedback-card h3 {
+    margin: 0 0 5px;
+}
+
+.email {
+    color: #64748b;
+    font-size: 14px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #e2e8f0;
+}
+
+/* Done */
