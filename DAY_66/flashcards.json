@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "question": "What is 5 × 5?",
+        "answer": "25",
+        "category": "Math",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "id": 2,
+        "question": "Who was the first Prime Minister of India?",
+        "answer": "Jawaharlal Nehru",
+        "category": "History",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "id": 3,
+        "question": "What is the chemical symbol for water?",
+        "answer": "H₂O",
+        "category": "Science",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "id": 4,
+        "question": "What is the capital of France?",
+        "answer": "Paris",
+        "category": "History",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "id": 5,
+        "question": "What is 2 + 2?",
+        "answer": "4",
+        "category": "Math",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "id": 6,
+        "question": "What is 12 × 12?",
+        "answer": "144",
+        "category": "Math",
+        "learned": false,
+        "review_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    }
+]
