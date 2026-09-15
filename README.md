@@ -115,6 +115,7 @@ Each folder contains:
 | 63  | Movie Recommendation System            | ✅ Completed |
 | 64  | PDF Merger Tool                        | ✅ Completed |
 | 65  | Portfolio Website Backend              | ✅ Completed |
+| 66  | Flashcards Learning App                | ✅ Completed |
 
 ---
 
