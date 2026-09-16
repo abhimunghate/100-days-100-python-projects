@@ -116,6 +116,7 @@ Each folder contains:
 | 64  | PDF Merger Tool                        | ✅ Completed |
 | 65  | Portfolio Website Backend              | ✅ Completed |
 | 66  | Flashcards Learning App                | ✅ Completed |
+| 67  | Stock Market Dashboard                 | ✅ Completed |
 
 ---
 
