@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Complete Python project",
+        "due_date": "2026-09-25",
+        "priority": "High",
+        "completed": false
+    },
+    {
+        "title": "Attend team meeting",
+        "due_date": "2026-09-26",
+        "priority": "Medium",
+        "completed": true
+    }
+]
