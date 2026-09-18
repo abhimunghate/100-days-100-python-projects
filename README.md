@@ -118,6 +118,7 @@ Each folder contains:
 | 66  | Flashcards Learning App                | ✅ Completed |
 | 67  | Stock Market Dashboard                 | ✅ Completed |
 | 68  | Task Scheduler                         | ✅ Completed |
+| 69  | Currency Converter                     | ✅ Completed |
 
 ---
 
