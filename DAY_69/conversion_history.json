@@ -1,0 +1,30 @@
+[
+    {
+        "datetime": "2026-09-18 23:35:07",
+        "conversion": "25.00 GBP \u2192 USD",
+        "result": "33.33 USD",
+        "rate": "1 GBP = 1.333333 USD",
+        "source": "Local JSON"
+    },
+    {
+        "datetime": "2026-09-18 23:34:45",
+        "conversion": "1,000.00 INR \u2192 JPY",
+        "result": "1,325.30 JPY",
+        "rate": "1 INR = 1.325301 JPY",
+        "source": "Local JSON"
+    },
+    {
+        "datetime": "2026-09-18 23:34:29",
+        "conversion": "50.00 EUR \u2192 INR",
+        "result": "4,882.35 INR",
+        "rate": "1 EUR = 97.647059 INR",
+        "source": "Local JSON"
+    },
+    {
+        "datetime": "2026-09-18 23:33:27",
+        "conversion": "100.00 USD \u2192 INR",
+        "result": "7,400.00 INR",
+        "rate": "1 USD = 74.000000 INR",
+        "source": "Local JSON"
+    }
+]
