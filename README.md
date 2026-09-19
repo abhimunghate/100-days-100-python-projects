@@ -119,6 +119,7 @@ Each folder contains:
 | 67  | Stock Market Dashboard                 | ✅ Completed |
 | 68  | Task Scheduler                         | ✅ Completed |
 | 69  | Currency Converter                     | ✅ Completed |
+| 70  | Data Visualizer App                    | ✅ Completed |
 
 ---
 
