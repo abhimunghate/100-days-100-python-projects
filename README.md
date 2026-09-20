@@ -120,6 +120,7 @@ Each folder contains:
 | 68  | Task Scheduler                         | ✅ Completed |
 | 69  | Currency Converter                     | ✅ Completed |
 | 70  | Data Visualizer App                    | ✅ Completed |
+| 71  | Spam Email Detector                    | ✅ Completed |
 
 ---
 
