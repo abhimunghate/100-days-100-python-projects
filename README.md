@@ -121,6 +121,7 @@ Each folder contains:
 | 69  | Currency Converter                     | ✅ Completed |
 | 70  | Data Visualizer App                    | ✅ Completed |
 | 71  | Spam Email Detector                    | ✅ Completed |
+| 72  | Text Sentiment Analyzer                | ✅ Completed |
 
 ---
 
