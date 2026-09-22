@@ -122,6 +122,7 @@ Each folder contains:
 | 70  | Data Visualizer App                    | ✅ Completed |
 | 71  | Spam Email Detector                    | ✅ Completed |
 | 72  | Text Sentiment Analyzer                | ✅ Completed |
+| 73  | Handwriting Digit Recognition          | ✅ Completed |
 
 ---
 
