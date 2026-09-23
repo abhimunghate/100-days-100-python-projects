@@ -123,6 +123,7 @@ Each folder contains:
 | 71  | Spam Email Detector                    | ✅ Completed |
 | 72  | Text Sentiment Analyzer                | ✅ Completed |
 | 73  | Handwriting Digit Recognition          | ✅ Completed |
+| 74  | Voice Assistant                        | ✅ Completed |
 
 ---
 
