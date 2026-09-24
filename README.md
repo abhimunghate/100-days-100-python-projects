@@ -124,6 +124,7 @@ Each folder contains:
 | 72  | Text Sentiment Analyzer                | ✅ Completed |
 | 73  | Handwriting Digit Recognition          | ✅ Completed |
 | 74  | Voice Assistant                        | ✅ Completed |
+| 75  | Face Detection & Recognition App       | ✅ Completed |
 
 ---
 
