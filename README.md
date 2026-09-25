@@ -125,6 +125,7 @@ Each folder contains:
 | 73  | Handwriting Digit Recognition          | ✅ Completed |
 | 74  | Voice Assistant                        | ✅ Completed |
 | 75  | Face Detection & Recognition App       | ✅ Completed |
+| 76  | Hybrid Book Recommendation System      | ✅ Completed |
 
 ---
 
