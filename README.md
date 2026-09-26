@@ -126,6 +126,7 @@ Each folder contains:
 | 74  | Voice Assistant                        | ✅ Completed |
 | 75  | Face Detection & Recognition App       | ✅ Completed |
 | 76  | Hybrid Book Recommendation System      | ✅ Completed |
+| 77  | AI Chatbot with NLP                    | ✅ Completed |
 
 ---
 
