@@ -127,6 +127,7 @@ Each folder contains:
 | 75  | Face Detection & Recognition App       | ✅ Completed |
 | 76  | Hybrid Book Recommendation System      | ✅ Completed |
 | 77  | AI Chatbot with NLP                    | ✅ Completed |
+| 78  | Object Detection App                   | ✅ Completed |
 
 ---
 
