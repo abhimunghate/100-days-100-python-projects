@@ -31,3 +31,16 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# YOLO training outputs
+yolov5/runs/
+runs/
+
+# YOLO model weights
+*.pt
+*.pth
+*.onnx
+
+# Dataset
+dataset/
+helmet_original/
