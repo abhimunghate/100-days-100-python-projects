@@ -1,0 +1,11 @@
+path: C:/Users/madhu/OneDrive/Documents/PYTHON - PROJECTS/100_DAYS_100_PROJECTS/DAY_78/dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+
+names:
+  0: helmet
+  1: no_helmet
