@@ -128,6 +128,7 @@ Each folder contains:
 | 76  | Hybrid Book Recommendation System      | ✅ Completed |
 | 77  | AI Chatbot with NLP                    | ✅ Completed |
 | 78  | Object Detection App                   | ✅ Completed |
+| 79  | Language Translator Tool               | ✅ Completed |
 
 ---
 
