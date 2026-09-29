@@ -74,7 +74,6 @@ def predict():
 
     combined_text = (title + " " + text)
     cleaned_text = clean_text(combined_text)
-
     if not cleaned_text:
         return jsonify({
             "success": False,
