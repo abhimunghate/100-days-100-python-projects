@@ -45,3 +45,6 @@ runs/
 dataset/
 helmet_original/
 yolov5/
+
+# Trained models
+models/
