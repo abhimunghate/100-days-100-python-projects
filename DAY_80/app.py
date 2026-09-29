@@ -66,7 +66,6 @@ def predict():
 
     title = data.get("title", "").strip()
     text = data.get("text", "").strip()
-
     if not title and not text:
         return jsonify({
             "success": False,
