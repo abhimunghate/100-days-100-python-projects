@@ -130,6 +130,7 @@ Each folder contains:
 | 78  | Object Detection App                   | ✅ Completed |
 | 79  | Language Translator Tool               | ✅ Completed |
 | 80  | Fake News Detector                     | ✅ Completed |
+| 81  | E-Commerce Backend System              | ✅ Completed |
 
 ---
 
