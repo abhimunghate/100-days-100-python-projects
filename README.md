@@ -131,6 +131,7 @@ Each folder contains:
 | 79  | Language Translator Tool               | ✅ Completed |
 | 80  | Fake News Detector                     | ✅ Completed |
 | 81  | E-Commerce Backend System              | ✅ Completed |
+| 82  | Library Management System              | ✅ Completed |
 
 ---
 
