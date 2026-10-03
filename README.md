@@ -133,6 +133,7 @@ Each folder contains:
 | 81  | E-Commerce Backend System              | ✅ Completed |
 | 82  | Library Management System              | ✅ Completed |
 | 83  | Simple CMS (Content Management System) | ✅ Completed |
+| 84  | Blog Platform                          | ✅ Completed |
 
 ---
 
