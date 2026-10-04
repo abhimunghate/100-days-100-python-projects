@@ -134,6 +134,7 @@ Each folder contains:
 | 82  | Library Management System              | ✅ Completed |
 | 83  | Simple CMS (Content Management System) | ✅ Completed |
 | 84  | Blog Platform                          | ✅ Completed |
+| 85  | Job Board App                          | ✅ Completed |
 
 ---
 
