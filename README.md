@@ -135,6 +135,7 @@ Each folder contains:
 | 83  | Simple CMS (Content Management System) | ✅ Completed |
 | 84  | Blog Platform                          | ✅ Completed |
 | 85  | Job Board App                          | ✅ Completed |
+| 86  | Chat Application                       | ✅ Completed |
 
 ---
 
