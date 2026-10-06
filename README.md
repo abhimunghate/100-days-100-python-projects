@@ -136,6 +136,7 @@ Each folder contains:
 | 84  | Blog Platform                          | ✅ Completed |
 | 85  | Job Board App                          | ✅ Completed |
 | 86  | Chat Application                       | ✅ Completed |
+| 87  | Online Polling System                  | ✅ Completed |
 
 ---
 
