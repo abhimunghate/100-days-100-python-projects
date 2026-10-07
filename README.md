@@ -137,6 +137,7 @@ Each folder contains:
 | 85  | Job Board App                          | ✅ Completed |
 | 86  | Chat Application                       | ✅ Completed |
 | 87  | Online Polling System                  | ✅ Completed |
+| 88  | Social Media Backend                   | ✅ Completed |
 
 ---
 
