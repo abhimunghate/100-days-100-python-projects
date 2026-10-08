@@ -138,6 +138,7 @@ Each folder contains:
 | 86  | Chat Application                       | ✅ Completed |
 | 87  | Online Polling System                  | ✅ Completed |
 | 88  | Social Media Backend                   | ✅ Completed |
+| 89  | Event Booking App                      | ✅ Completed |
 
 ---
 
