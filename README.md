@@ -139,6 +139,7 @@ Each folder contains:
 | 87  | Online Polling System                  | ✅ Completed |
 | 88  | Social Media Backend                   | ✅ Completed |
 | 89  | Event Booking App                      | ✅ Completed |
+| 90  | URL Shortener Service                  | ✅ Completed |
 
 ---
 
