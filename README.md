@@ -140,6 +140,7 @@ Each folder contains:
 | 88  | Social Media Backend                   | ✅ Completed |
 | 89  | Event Booking App                      | ✅ Completed |
 | 90  | URL Shortener Service                  | ✅ Completed |
+| 91  | Personal Finance Dashboard             | ✅ Completed |
 
 ---
 
