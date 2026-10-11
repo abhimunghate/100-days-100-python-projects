@@ -141,6 +141,7 @@ Each folder contains:
 | 89  | Event Booking App                      | ✅ Completed |
 | 90  | URL Shortener Service                  | ✅ Completed |
 | 91  | Personal Finance Dashboard             | ✅ Completed |
+| 92  | Online Quiz App                        | ✅ Completed |
 
 ---
 
