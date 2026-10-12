@@ -1,0 +1,21 @@
+{
+  "title": "Sprint Planning",
+  "shapes": [
+    {
+      "id": 1,
+      "kind": "note",
+      "x": 160,
+      "y": 140,
+      "text": "Define API contract",
+      "color": "yellow"
+    },
+    {
+      "id": 2,
+      "kind": "rectangle",
+      "x": 360,
+      "y": 80,
+      "text": "Build service",
+      "color": "blue"
+    }
+  ]
+}
