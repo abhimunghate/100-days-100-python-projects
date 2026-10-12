@@ -142,6 +142,7 @@ Each folder contains:
 | 90  | URL Shortener Service                  | ✅ Completed |
 | 91  | Personal Finance Dashboard             | ✅ Completed |
 | 92  | Online Quiz App                        | ✅ Completed |
+| 93  | Virtual Whiteboard App                 | ✅ Completed |
 
 ---
 
