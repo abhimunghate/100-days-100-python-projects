@@ -143,6 +143,7 @@ Each folder contains:
 | 91  | Personal Finance Dashboard             | ✅ Completed |
 | 92  | Online Quiz App                        | ✅ Completed |
 | 93  | Virtual Whiteboard App                 | ✅ Completed |
+| 94  | Real-Time Weather Monitoring Dashboard | ✅ Completed |
 
 ---
 
