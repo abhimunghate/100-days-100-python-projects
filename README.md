@@ -146,6 +146,7 @@ Each folder contains:
 | 94  | Real-Time Weather Monitoring Dashboard | ✅ Completed |
 | 95  | Stock Price Prediction Tool            | ✅ Completed |
 | 96  | Online Voting System                   | ✅ Completed |
+| 97  | Restaurant Ordering System             | ✅ Completed |
 
 ---
 
