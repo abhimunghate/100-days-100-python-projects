@@ -147,6 +147,7 @@ Each folder contains:
 | 95  | Stock Price Prediction Tool            | ✅ Completed |
 | 96  | Online Voting System                   | ✅ Completed |
 | 97  | Restaurant Ordering System             | ✅ Completed |
+| 98  | Fitness Tracker App                    | ✅ Completed |
 
 ---
 
