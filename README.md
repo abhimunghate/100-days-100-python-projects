@@ -148,6 +148,7 @@ Each folder contains:
 | 96  | Online Voting System                   | ✅ Completed |
 | 97  | Restaurant Ordering System             | ✅ Completed |
 | 98  | Fitness Tracker App                    | ✅ Completed |
+| 99  | AI-Powered Customer Service Chatbot    | ✅ Completed |
 
 ---
 
